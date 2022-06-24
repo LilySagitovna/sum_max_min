@@ -56,7 +56,16 @@ if ( max_i < min_i )
         sum += myArray[max_i_step];
         max_i_step++;
     }
-Console.WriteLine (Sum);
 }
+else
+{
+    int min_i_step = min_i + 1;
+    while (min_i_step < max_i)
+    {
+        sum += myArray[min_i_step];
+        min_i_step++;
+    }
+}
+Console.WriteLine (Sum);
 }
 }
