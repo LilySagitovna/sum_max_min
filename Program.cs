@@ -1,27 +1,36 @@
 ﻿//Найти сумму элементов массива, лежащих между максимальныи и минимальным по значению элементами
-//Console.Write("Введите число");
 
-class Program
+class Sum_Min_Max                                                               // Команда class привносит функционала, Sum_Min_Max - Любое название нашей программы
 {
 
-    static void Main(string[] args)
+    static void Main(string[] args)                                             // Static void - говорит об инициализации этого кода 1 раз, а затем сохраняет данные в переменную и код больше не используется, Main - код в нутри метода мэйн будет выполняться первым
     {
-        Console.Write("Введите количество элементов массива:\t");
+        Console.Write("Введите количество элементов массива:\t");               // Выводит на экран просьбу ввести
 
-        int elementsCount = int.Parse(Console.ReadLine());
+        int elementsCount = int.Parse(Console.ReadLine());                      // elementsCount - просто переменная, Parse - конвертирует вводимые данные в 32 битное целое число, чтобы было удобно с ними работать
 
-        int[] myArray = new int[elementsCount];
+        int[] myArray = new int[elementsCount];                                 // myArray - название массива, new int[elementsCount] - создание нового массива с количеством цифр введенных шагом ранее
 
-        for (int i = 0; i < myArray.Length; i++)
+        for (int i = 0; i < myArray.Length; i++)                                // Стандартная пробежка по каждому элементу массива
         {
-            Console.Write($"\nВведите элемент массива под индексом {i}:\t");
-            myArray[i] = int.Parse(Console.ReadLine());
+            Console.Write($"\nВведите элемент массива под индексом {i}:\t");    // Вывод на экран сообщения где  {i} - порядковый номер элемента массива
+            myArray[i] = int.Parse(Console.ReadLine());                         // Считываем вводимые данные и снова конвертим в целые числа
         }
 
-        Console.WriteLine("\nВывод массива:");
-        for (int i = 0; i < myArray.Length; i++)
+        Console.WriteLine("\nВывод массива:");                                  // Вывод на экран сообщения 
+        for (int i = 0; i < myArray.Length; i++)                                // (для каждого i в массиве, пока не кончился массив
         {
-            Console.Write(myArray[i]); Console.Write(" ");
+            Console.Write(myArray[i] + " ");                                    // вывести его значение и после него пробел)
         }
+    
+int sum = 0;                                                                    // остановился пока тут...
+int i2 =  0;
+int tMAX = myArray[i2];
+int tMIN = myArray[i2];
+
+
+
+
     }
+
 }
