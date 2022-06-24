@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\VlaDOS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IT\\Разработчик\\Введение в программирование\\Языки программирования\\С#\\Моё\\sum_min_max\\sum_min_max.csproj",
+      "projectUniqueName": "C:\\GB\\Lily\\sum_max_min\\sum_min_max.csproj",
       "projectName": "sum_min_max",
-      "projectPath": "D:\\IT\\Разработчик\\Введение в программирование\\Языки программирования\\С#\\Моё\\sum_min_max\\sum_min_max.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\IT\\Разработчик\\Введение в программирование\\Языки программирования\\С#\\Моё\\sum_min_max\\obj\\",
+      "projectPath": "C:\\GB\\Lily\\sum_max_min\\sum_min_max.csproj",
+      "packagesPath": "C:\\Users\\VlaDOS\\.nuget\\packages\\",
+      "outputPath": "C:\\GB\\Lily\\sum_max_min\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\VlaDOS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
