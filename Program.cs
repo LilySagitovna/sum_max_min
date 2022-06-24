@@ -3,7 +3,7 @@
 class Sum_Min_Max                                                               // Команда class привносит функционала, Sum_Min_Max - Любое название нашей программы
 {
 
-    static void Main(string[] args)                                             // Static void - говорит об инициализации этого кода 1 раз, а затем сохраняет данные в переменную и код больше не используется, Main - код в нутри метода мэйн будет выполняться первым
+    static void Main(int[] args)                                                // Static void - говорит об инициализации этого кода 1 раз, а затем сохраняет данные в переменную и код больше не используется, Main - код в нутри метода мэйн будет выполняться первым
     {
         Console.Write("Введите количество элементов массива:\t");               // Выводит на экран просьбу ввести
 
@@ -22,11 +22,31 @@ class Sum_Min_Max                                                               
         {
             Console.Write(myArray[i] + " ");                                    // вывести его значение и после него пробел)
         }
-    
-int sum = 0;                                                                    // остановился пока тут...
-int i2 =  0;
-int tMAX = myArray[i2];
-int tMIN = myArray[i2];
+
+int j = 0;
+int tMAX = myArray[j];
+int tMIN = myArray[j];
+
+while (j < myArray)
+{
+    if (tMAX < myArray[j])
+    {
+        tMAX = myArray[j];
+        int max_i = j;
+    }
+    else
+    {
+        if (tMIN < myArray[j])
+        {
+        }
+        else
+        {
+            tMIN = myArray[j];
+            int min_i = j;
+        }
+    }
+j++;
+}
 
 
 
