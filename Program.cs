@@ -1,10 +1,10 @@
 ﻿//Найти сумму элементов массива, лежащих между максимальныи и минимальным по значению элементами
 
-class Sum_Min_Max                                                               // Команда class привносит функционала, Sum_Min_Max - Любое название нашей программы
-{
+class Sum_Min_Max {                                                             // Команда class привносит функционала, Sum_Min_Max - Любое название нашей программы
 
-    static void Main(int[] args)                                                // Static void - говорит об инициализации этого кода 1 раз, а затем сохраняет данные в переменную и код больше не используется, Main - код в нутри метода мэйн будет выполняться первым
-    {
+
+    static void Main(string[] args) {                                              // Static void - говорит об инициализации этого кода 1 раз, а затем сохраняет данные в переменную и код больше не используется, Main - код в нутри метода мэйн будет выполняться первым
+    
         Console.Write("Введите количество элементов массива:\t");               // Выводит на экран просьбу ввести
 
         int elementsCount = int.Parse(Console.ReadLine()!);                      // elementsCount - просто переменная, Parse - конвертирует вводимые данные в 32 битное целое число, чтобы было удобно с ними работать
@@ -26,8 +26,9 @@ class Sum_Min_Max                                                               
 int j = 0;
 int tMAX = myArray[j];
 int tMIN = myArray[j];
+int sum = 0;
 
-while (j < myArray)
+while (j < elementsCount)
 {
     if (tMAX < myArray[j])
     {
@@ -37,8 +38,7 @@ while (j < myArray)
     else
     {
         if (tMIN < myArray[j])
-        {
-        }
+        {}
         else
         {
             tMIN = myArray[j];
@@ -48,9 +48,15 @@ while (j < myArray)
 j++;
 }
 
-
-
-
+if ( max_i < min_i )
+{
+    int max_i_step = max_i + 1;
+    while (max_i_step < min_i)
+    {
+        sum += myArray[max_i_step];
+        max_i_step++;
     }
-
+Console.WriteLine (Sum);
+}
+}
 }
