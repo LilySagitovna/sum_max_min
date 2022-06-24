@@ -13,3 +13,18 @@ D:\IT\Разработчик\Введение в программировани�
 D:\IT\Разработчик\Введение в программирование\Языки программирования\С#\Моё\sum_min_max\obj\Debug\net6.0\sum_min_max.pdb
 D:\IT\Разработчик\Введение в программирование\Языки программирования\С#\Моё\sum_min_max\obj\Debug\net6.0\sum_min_max.genruntimeconfig.cache
 D:\IT\Разработчик\Введение в программирование\Языки программирования\С#\Моё\sum_min_max\obj\Debug\net6.0\ref\sum_min_max.dll
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.csproj.AssemblyReference.cache
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.AssemblyInfoInputs.cache
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.AssemblyInfo.cs
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.csproj.CoreCompileInputs.cache
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.dll
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\refint\sum_min_max.dll
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.pdb
+C:\GB\Lily\sum_max_min\bin\Debug\net6.0\sum_min_max.exe
+C:\GB\Lily\sum_max_min\bin\Debug\net6.0\sum_min_max.deps.json
+C:\GB\Lily\sum_max_min\bin\Debug\net6.0\sum_min_max.runtimeconfig.json
+C:\GB\Lily\sum_max_min\bin\Debug\net6.0\sum_min_max.dll
+C:\GB\Lily\sum_max_min\bin\Debug\net6.0\sum_min_max.pdb
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\sum_min_max.genruntimeconfig.cache
+C:\GB\Lily\sum_max_min\obj\Debug\net6.0\ref\sum_min_max.dll
