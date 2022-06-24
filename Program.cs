@@ -7,14 +7,22 @@ class Sum_Min_Max                                                               
     {
         Console.Write("Введите количество элементов массива:\t");               // Выводит на экран просьбу ввести
 
+ main
         int elementsCount = int.Parse(Console.ReadLine()!);                      // elementsCount - просто переменная, Parse - конвертирует вводимые данные в 32 битное целое число, чтобы было удобно с ними работать
+
+        int elementsCount = int.Parse(Console.ReadLine());                      // elementsCount - просто переменная, Parse - конвертирует вводимые данные в 32 битное целое число, чтобы было удобно с ними работать
+ main
 
         int[] myArray = new int[elementsCount];                                 // myArray - название массива, new int[elementsCount] - создание нового массива с количеством цифр введенных шагом ранее
 
         for (int i = 0; i < myArray.Length; i++)                                // Стандартная пробежка по каждому элементу массива
         {
             Console.Write($"\nВведите элемент массива под индексом {i}:\t");    // Вывод на экран сообщения где  {i} - порядковый номер элемента массива
+ main
             myArray[i] = int.Parse(Console.ReadLine()!);                        // Считываем вводимые данные и снова конвертим в целые числа
+
+            myArray[i] = int.Parse(Console.ReadLine());                         // Считываем вводимые данные и снова конвертим в целые числа
+ main
         }
 
         Console.WriteLine("\nВывод массива:");                                  // Вывод на экран сообщения 
